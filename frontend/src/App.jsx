@@ -10,7 +10,9 @@ import {
   Wind,
 } from "lucide-react";
 
-const socket = io("http://localhost:4000");
+const socket = io("https://smart-school-iot.onrender.com", {
+  transports: ["websocket","polling"],
+});
 
 /**
  * Mappa stanze (devi usare gli stessi nomi che arrivano dal simulatore: update.room)
