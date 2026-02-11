@@ -9,8 +9,14 @@ app.use(cors());
 
 const httpServer = createServer(app);
 const io = new Server(httpServer, {
-  cors: { origin: "*" }
-});
+    cors: {
+      origin: [
+        "https://smart-school-iot-1.onrender.com"
+      ],
+      methods: ["GET", "POST"]
+    }
+  });
+  
 
 const mqttClient = mqtt.connect("mqtt://broker.hivemq.com");
 
