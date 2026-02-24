@@ -50,11 +50,11 @@ if (ENABLE_SIMULATOR) {
   console.log("✅ Simulator enabled inside backend");
 
   const ROOMS = [
-    { floor: 1, room: "Aula 1A" }, { floor: 1, room: "Aula 1B" }, { floor: 1, room: "Aula 1C" },
+    { floor: 1, room: "Aula 1A" }, { floor: 1, room: "Aula 1B" }, { floor: 1, room: "Aula 1C" },{ floor: 1, room: "Segreteria" },
     { floor: 1, room: "Aula 1D" }, { floor: 1, room: "Aula 1E" }, { floor: 1, room: "Aula 1F" },
     { floor: 1, room: "Laboratorio Chimica" }, { floor: 1, room: "Laboratorio Fisica" }, { floor: 1, room: "Aula Magna" },
     { floor: 2, room: "Aula 2A" }, { floor: 2, room: "Aula 2B" }, { floor: 2, room: "Aula 2C" },
-    { floor: 2, room: "Aula 2D" }, { floor: 2, room: "Aula 2E" }, { floor: 2, room: "Aula 2F" },
+    { floor: 2, room: "Aula 2D" }, { floor: 2, room: "Aula 2E" }, { floor: 2, room: "Aula 2F" },{ floor: 2, room: "Aula Docenti" },
     { floor: 2, room: "Laboratorio Informatica" }, { floor: 2, room: "Biblioteca" }, { floor: 2, room: "Palestra" },
   ];
 
